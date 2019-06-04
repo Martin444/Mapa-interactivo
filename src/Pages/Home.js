@@ -1,24 +1,59 @@
 import React, { Component } from 'react'
 import Mapa from '../Components/Mapa'
 import ProvConten from '../Components/ProvConten'
+import Accordion from 'react-bootstrap/Accordion'
+import Card from 'react-bootstrap/Card'
 
 export default class Home extends Component {
+    state ={
+        hideNav:null
+    }
+
+
+    componentDidMount(){
+        window.addEventListener("resize", this.resize.bind(this))
+        this.resize();
+    }
+
+    resize(){
+        this.setState({hideNav: window.innerHeight})
+        console.log(this.state.hideNav);
+    }
+
+
     render() {
         return (
             <>
 
             <div className="App">
-                <div className="row mx-md-3">
-                    <div className="col-4 px-md-1 ">
-                        <Mapa/>
-                    </div>
-                    <div className="col px-md-1 mt-5">
+                <div className="container">
+                    <div className="row justify-content-md-center">
+                    <div className="col">
                         <ProvConten/> 
                     </div>
+                    <div className=" col col-lg-5" >
+                    <Accordion className="shadow">
+                        <Card>
+                            <Card.Header>
+                                <Accordion.Toggle as={Card.Header} eventKey="0">
+                                <p className="text-center text-uppercase">Ver Mapa</p>
+                                </Accordion.Toggle>
+                            </Card.Header>
+                            <Accordion.Collapse eventKey="0">
+                                <Card.Body>
+                                     <Mapa/>
+                                </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
+                    </Accordion>
+                    </div>
                 </div>
+                </div>
+                
             </div>
                 
             </>
         )
     }
 }
+

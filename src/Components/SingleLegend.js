@@ -15,7 +15,7 @@ export default function SingleLegend({legend,mit,mito,leyenda, imgMit, imgLeg}) 
                         </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
-                        <Card.Body>
+                        <Card.Body className="overflow-auto" style={{maxHeight:'250px'}}>
                         <img src={imgMit} class="img-fluid mx-auto d-block" style={{height:"200px"}} alt=" responsive"/>
                         <p className="font-weight-normal">{mito}</p>
                         </Card.Body>
@@ -31,9 +31,9 @@ export default function SingleLegend({legend,mit,mito,leyenda, imgMit, imgLeg}) 
                         </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
-                        <Card.Body>
+                        <Card.Body className="overflow-auto" style={{maxHeight:'250px'}}>
                         <img src={imgLeg} className="img-fluid mx-auto d-block" style={{height:"200px"}} alt="Responsive"/>
-                        <p className="font-weight-normal">{leyenda}</p>
+                        <p className="font-weight-normal ">{leyenda}</p>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>

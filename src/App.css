@@ -314,8 +314,8 @@ padding: 0;
 
 	opacity: 0;
 	/* -webkit-transition: opacity 0.5s; */
-	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	/* -moz-transition:    opacity 0.5s; */
+	/* -o-transition:      opacity 0.5s; */
 }
 
 .button span:hover{
@@ -341,9 +341,9 @@ width:20px;
 padding: 0;
 
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 }
 
 .button1 span:hover{
@@ -368,9 +368,9 @@ width:55px;
 padding: 0;
 
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 }
 
 .button2 span:hover{
@@ -396,9 +396,9 @@ width:65px;
 padding: 0;
 
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 }
 
 .button3 span:hover{
@@ -423,9 +423,9 @@ width:111px;
 padding: 0;
 
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 }
 
 .button4 span:hover{
@@ -450,9 +450,9 @@ padding: 0;
 padding: 0;
 
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 }
 
 .button5 span:hover{
@@ -476,9 +476,9 @@ padding: 0;
 padding: 0;
 
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 }
 
 .button6 span:hover{
@@ -501,9 +501,9 @@ padding: 0;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -531,9 +531,9 @@ padding: 0;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: -6px;
 	top: 3px;
 }
@@ -561,9 +561,9 @@ width:40px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 1px;
 }
@@ -592,9 +592,9 @@ width:40px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: -5px;
 	top: 0px;
 }
@@ -621,9 +621,9 @@ width:54px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: -5px;
 	top: 0px;
 }
@@ -646,9 +646,9 @@ width:52px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: -5px;
 	top: 0px;
 }
@@ -673,9 +673,9 @@ width:52px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -700,9 +700,9 @@ width:52px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -727,9 +727,9 @@ width:52px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -754,9 +754,9 @@ width:81px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -781,9 +781,9 @@ width:81px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -808,9 +808,9 @@ width:81px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -835,9 +835,9 @@ width:81px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -863,9 +863,9 @@ width:81px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -890,9 +890,9 @@ width:81px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -916,9 +916,9 @@ width:81px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -943,9 +943,9 @@ width:81px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -970,9 +970,9 @@ width:81px;
 	margin: 0;
 	padding: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.5s;
+	/* -webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
+	-o-transition:      opacity 0.5s; */
 	left: 0px;
 	top: 0px;
 }
@@ -1181,15 +1181,10 @@ a:active {
 }
 
 .contenedor-mapa{
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  min-width: 30px;
-  min-height: 30px;
-	width:100px;
-	top: 139px;
-	left: 100px;
-	height: 2px;
+  position: relative;
+
+	width:50px;
+	height: 550px;
 }
 
 #map{

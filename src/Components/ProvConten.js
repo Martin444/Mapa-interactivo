@@ -33,9 +33,9 @@ import {Route, Switch} from 'react-router-dom'
 export default class ProvConten extends Component {
     render() {
         return (
-            <div className="card shadow position-absolute">
+            <div className="card shadow">
                 <div className="card-body">
-                <p className="card-header">Haz Click en alguna provincia y te saludará</p>
+                <p className="card-header">Sigamos conociendo nuestro país</p>
                 <Switch>
                     <Route exact path="/" component={DefaultLegend}/>
                     <Route exact path="/BsAs" component={BsAs}/>
