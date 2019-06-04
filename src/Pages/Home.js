@@ -24,7 +24,6 @@ export default class Home extends Component {
     render() {
         return (
             <>
-
             <div className="App">
                 <div className="container">
                     <div className="row justify-content-md-center">
