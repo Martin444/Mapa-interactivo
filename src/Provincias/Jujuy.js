@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import SingleLegend from '../Components/SingleLegend'
 import Duende from '../images/Elduende.jpg'
-import Coquena from '../images/coquena.png'
+import Familiar from '../images/elFamiliar.jpg'
 
 export default class Jujuy extends Component {
     render() {
@@ -14,12 +14,16 @@ export default class Jujuy extends Component {
                 Cuando el duende toma una casa ya no deja vivir y hay que mudarse lejos, pero no debe olvidarse nada: el duende lo seguiria atodas partes llevando cualquier objeto que los dueños que hayan dejado
                 Cuentan en el lejano pueblo de Cusi Cusi que existe un duende que con el correr de los años ha crecido se ha trasnformado en personas ya fallecidas que se les aparece a los familiares, las personas que lo han visto se trastornan" 
                 
-                imgLeg={Coquena}
-                legend="Coquena"
-                leyenda="Coquena protege a las vicuñas, las llamas y a los guanacos. Es enano y toda su ropa es de lana de vicuña. Calza pequeñas ojotas. Anda silbando por los cerros, coquea todo el día y se esconde de la mirada de las personas. Siempre esta vigilando a estos camélidos que pastan en la puna.
-                Dice que cuando se ve a lo lejos moverse las tropas de camélidos sin pastores que las guíen, es Coquena que las esta llevando a lugares con mejor pasto. También se dice que por las noches lleva rebaños cargados de oro y plata de distintas minas de la puna hacia el Cerro Sagrado de Potosí para que las riquezas de este nunca se agoten. Cuentan que ata los bultos con vibras en vez de sogas.
-                Es raro encontrarse con Coquena, pero cuando se lo ve es solo por un instante, porque rápidamente se transforma en un espíritu.
-                Suele recompensar con virtudes a quien no daña a las llamas y las vicuñas, pero captura con dureza a los cazadores de esos animalitos y a aquellos arrieros que suelen sobrecargar las alforjas, y a los buenos pastores los premia con monedas de oro. "/>
+                imgLeg={Familiar}
+                legend="El Familiar"
+                leyenda={<>
+                <p>Esta leyenda nació en los ingenios azucareros del norte argentino, como Tabacal en Salta, La Esperanza en Jujuy, y otros sitios en Tucumán.</p><br/>
+                <p>Para poder salir de los problemas económicos que afectaban a sus empresas, los dueños pactaban con el demonio, a quien le ofrecían a modo de sacrificio la vida de sus peones.</p><br/>
+                <p>Así, cuenta la leyenda que los dueños hacían un pacto con el mismo demonio, para poder salir del pozo financiero. Era un enorme perro negro quien devoraba a los obreros, augurando un próspero año.</p><br/>
+                <p>Si bien ninguna persona pudo tener contacto con esta criatura, se cree que dormía en un sótano de los ingenios y atacaba de noche.</p><br/>
+                </>}
+                
+                />
             </div>
         )
     }

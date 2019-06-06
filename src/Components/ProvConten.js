@@ -29,13 +29,16 @@ import DefaultLegend from './DefaultLegend'
 
 
 import {Route, Switch} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 export default class ProvConten extends Component {
     render() {
         return (
             <div className="card shadow">
                 <div className="card-body">
-                <p className="card-header">Sigamos conociendo nuestro país</p>
+                <Link to="/">
+                    <h5 className="card-header">¿Que son los mitos y leyendas?</h5>
+                </Link>
                 <Switch>
                     <Route exact path="/" component={DefaultLegend}/>
                     <Route exact path="/BsAs" component={BsAs}/>
