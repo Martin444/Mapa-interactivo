@@ -10,11 +10,12 @@ export default class Misiones extends Component {
     render() {
         return (
             <div>
+                <h5>Mitos</h5>
                 <Accordion>
-                <Card>
+                <Card style={{background: "#FF695E", color:"#fff"}}>
                     <Card.Header>
                         <Accordion.Toggle as={Card.Header} eventKey="0">
-                           <p className="text-primary" style={{cursor: "pointer"}}>YASI YATERE</p>
+                           <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff", cursor:"pointer"}}>YASI YATERE</p>
                         </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
@@ -39,10 +40,10 @@ export default class Misiones extends Component {
             </Accordion>
             <h5>Leyendas</h5>
             <Accordion>
-                <Card>
+                <Card style={{background: "#FF695E", color:"#fff"}}>
                     <Card.Header>
                         <Accordion.Toggle as={Card.Header} eventKey="0">
-                        <p className="text-primary" style={{cursor: "pointer"}}>
+                        <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff", cursor:"pointer"}}>
                             Cataratas del Iguazú
                         </p>
                         </Accordion.Toggle>
@@ -59,10 +60,10 @@ export default class Misiones extends Component {
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                <Card>
+                <Card style={{background: "#FF695E", color:"#fff"}}>
                     <Card.Header>
                         <Accordion.Toggle as={Card.Header} eventKey="1">
-                        <p className="text-primary" style={{cursor: "pointer"}}>
+                        <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff", cursor:"pointer"}}>
                         La leyenda de la yerba y la luna
                         </p>
                         </Accordion.Toggle>

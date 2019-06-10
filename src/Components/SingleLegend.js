@@ -8,10 +8,10 @@ export default function SingleLegend({legend,mit,mito,leyenda, imgMit, imgLeg}) 
         <div>
             <h5>Mitos</h5>
             <Accordion>
-                <Card>
-                    <Card.Header>
+                <Card style={{background: "#FF695E", color:"#fff"}}>
+                    <Card.Header >
                         <Accordion.Toggle as={Card.Header} eventKey="0">
-                           <p className="text-primary">{mit}</p>
+                           <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff"}}>{mit}</p>
                         </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
@@ -24,10 +24,10 @@ export default function SingleLegend({legend,mit,mito,leyenda, imgMit, imgLeg}) 
             </Accordion>
             <h5>Leyendas</h5>
             <Accordion>
-                <Card>
+                <Card style={{background: "#FF695E", color:"#fff"}}>
                     <Card.Header>
                         <Accordion.Toggle as={Card.Header} eventKey="0">
-                        <p className="text-primary">{legend}</p>
+                        <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff", cursor:"pointer"}}>{legend}</p>
                         </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">

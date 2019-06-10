@@ -12,12 +12,12 @@ export default class Salta extends Component {
     render() {
         return (
             <div>
-
-<Accordion>
-                <Card>
+                <h5>Mitos</h5>
+            <Accordion>
+                <Card style={{background: "#FF695E", color:"#fff"}}>
                     <Card.Header>
                         <Accordion.Toggle as={Card.Header} eventKey="0">
-                           <p className="text-primary" style={{cursor: "pointer"}}>El Ucumar</p>
+                           <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff"}}>El Ucumar</p>
                         </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
@@ -40,10 +40,10 @@ Existen versiones de que no sería un animal, sinó el alma de un hombre rico co
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                <Card>
+                <Card style={{background: "#FF695E", color:"#fff"}}>
                     <Card.Header>
                         <Accordion.Toggle as={Card.Header} eventKey="1">
-                        <p className="text-primary" style={{cursor: "pointer"}}>
+                        <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff"}}>
                             El Ekeko
                         </p>
                         </Accordion.Toggle>
@@ -73,10 +73,10 @@ Existen versiones de que no sería un animal, sinó el alma de un hombre rico co
             {/* Leyendas */}
             <h5>Leyendas</h5>
             <Accordion>
-                <Card>
+                <Card style={{background: "#FF695E", color:"#fff"}}>
                     <Card.Header>
                         <Accordion.Toggle as={Card.Header} eventKey="0">
-                        <p className="text-primary" style={{cursor: "pointer"}}>
+                        <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff"}}>
                             El Kakuy
                         </p>
                         </Accordion.Toggle>
@@ -96,10 +96,10 @@ Existen versiones de que no sería un animal, sinó el alma de un hombre rico co
                 </Card>
                     {/* Segunda leyenda */}
 
-                <Card>
+                <Card style={{background: "#FF695E", color:"#fff"}}>
                     <Card.Header>
                         <Accordion.Toggle as={Card.Header} eventKey="1">
-                        <p className="text-primary" style={{cursor: "pointer"}}>
+                        <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff"}}>
                             Mayup Maman
                         </p>
                         </Accordion.Toggle>
@@ -123,10 +123,10 @@ Existen versiones de que no sería un animal, sinó el alma de un hombre rico co
                 </Card>
 
                 {/* Coquena */}
-                <Card>
+                <Card style={{background: "#FF695E", color:"#fff"}}>
                     <Card.Header>
                         <Accordion.Toggle as={Card.Header} eventKey="1">
-                        <p className="text-primary" style={{cursor: "pointer"}}>
+                        <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff"}}>
                             El Coquena
                         </p>
                         </Accordion.Toggle>

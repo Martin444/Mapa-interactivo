@@ -35,7 +35,7 @@ export default class ProvConten extends Component {
     render() {
         return (
             <div className="card shadow">
-                <div className="card-body">
+                <div className="card-body" style={{background: "#E0463C"}}>
                 <Link to="/">
                     <h5 className="card-header">¿Que son los mitos y leyendas?</h5>
                 </Link>
