@@ -17,7 +17,6 @@ export default class Home extends Component {
 
     resize(){
         this.setState({hideNav: window.innerHeight})
-        console.log(this.state.hideNav);
     }
 
 

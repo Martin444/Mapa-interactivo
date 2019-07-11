@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import SingleLegend from '../Components/SingleLegend'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import Pericana from '../images/pericana.jpg'

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import SingleLegend from '../Components/SingleLegend'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import Ucumar from '../images/ucumar.jpg'
@@ -125,13 +124,13 @@ Existen versiones de que no sería un animal, sinó el alma de un hombre rico co
                 {/* Coquena */}
                 <Card style={{background: "#FF695E", color:"#fff"}}>
                     <Card.Header>
-                        <Accordion.Toggle as={Card.Header} eventKey="1">
+                        <Accordion.Toggle as={Card.Header} eventKey="2">
                         <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff"}}>
                             El Coquena
                         </p>
                         </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="1">
+                    <Accordion.Collapse eventKey="2">
                         <Card.Body className="overflow-auto" style={{maxHeight:'250px'}}>
                         <img src={Coquena} className="img-fluid mx-auto d-block" style={{height:"200px"}} alt="Responsive"/>
                         <p className="font-weight-normal ">
@@ -143,50 +142,77 @@ Existen versiones de que no sería un animal, sinó el alma de un hombre rico co
                         
                         <p>Cazando vicuñas anduve en los cerros 
 
-Heridas de bala se escaparon dos. 
+                            Heridas de bala se escaparon dos. 
 
-- No caces vicuñas con armas de fuego ; 
+                            - No caces vicuñas con armas de fuego ; 
 
-Coquena se enoja, - me dijo un pastor.  </p>
-                        <p>- ¿Por qué no pillarlas a la usanza vieja, 
+                            Coquena se enoja, - me dijo un pastor.  </p>
+                                                    <p>- ¿Por qué no pillarlas a la usanza vieja, 
 
-cercando la hoyada con hilo punzó ? 
+                            cercando la hoyada con hilo punzó ? 
 
-- ¿Para qué matarlas, si sólo codicias 
+                            - ¿Para qué matarlas, si sólo codicias 
 
-para tus vestidos el fino vellón ?</p>
-                        <p>- No caces vicuñas con armas de fuego, 
+                            para tus vestidos el fino vellón ?</p>
+                                                    <p>- No caces vicuñas con armas de fuego, 
 
-Coquena se venga, - te lo digo yo 
+                            Coquena se venga, - te lo digo yo 
 
-¿No viste en las mansas pupilas obscuras 
+                            ¿No viste en las mansas pupilas obscuras 
 
-brillar la serena mirada del dios ? </p>
-                        <p>- ¿Tú viste a Coquena ? - Yo nunca lo vide, 
+                            brillar la serena mirada del dios ? </p>
+                                                    <p>- ¿Tú viste a Coquena ? - Yo nunca lo vide, 
 
-pero si mi agüelo, - repuso el pastor ; 
+                            pero si mi agüelo, - repuso el pastor ; 
 
-una vez oíle silbar solamente 
+                            una vez oíle silbar solamente 
 
-y en unos tolares, como a la oración.</p>
-                        <p>Coquena es enano ; de vicuña lleva 
+                            y en unos tolares, como a la oración.</p>
+                                                    <p>Coquena es enano ; de vicuña lleva 
 
-sombrero, escarpines, casaca y calzón, 
+                            sombrero, escarpines, casaca y calzón, 
 
-gasta diminutas ojotas de duende, 
+                            gasta diminutas ojotas de duende, 
 
-y diz que es de cholo la cara del dios.</p>
-                        <p>De todo ganado que pase en los cerros 
+                            y diz que es de cholo la cara del dios.</p>
+                                                    <p>De todo ganado que pase en los cerros 
 
-Coquena es oculto, celoso pastor ; 
+                            Coquena es oculto, celoso pastor ; 
 
-Si ves a lo lejos moverse las tropas, 
+                            Si ves a lo lejos moverse las tropas, 
 
-es porque invisible las arrea el dios. </p>
+                            es porque invisible las arrea el dios. </p>
 
-                        <p>Y es él quien se roba de noche las llamas 
+                                                    <p>Y es él quien se roba de noche las llamas 
 
-cuando con exceso las carga el patrón. </p>
+                            cuando con exceso las carga el patrón. </p>
+                        </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
+                {/* Cuarta leyenda */}
+
+                <Card style={{background: "#FF695E", color:"#fff"}}>
+                    <Card.Header>
+                        <Accordion.Toggle as={Card.Header} eventKey="3">
+                        <p className="text-center" style={{fontFamily: "Baloo Da", fontSize:"25px", color:"#fff"}}>
+                            El Coyuyo
+                        </p>
+                        </Accordion.Toggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey="3">
+                        <Card.Body className="overflow-auto" style={{maxHeight:'250px'}}>
+                        <img src={Coquena} className="img-fluid mx-auto d-block" style={{height:"200px"}} alt="Responsive"/>
+                        <p className="font-weight-normal ">
+                        En medio del campo vivían dos hermanos que trabajaban con el fruto dulzón y pintoresco de la algarroba, cuyas vainas maduran por el mes de febrero.
+                        </p>
+                        <p>El oficio de estas vainas es el siguiente: Para sacarles provecho se las machaca en el mortero y con la ayuda del viento se las limpia de todos aquellos elementos extraños y con una especie de harina se prepara un quesito dulce llamado "patay" </p>
+                        <p>También se puede hacer bebidas, si la algarroba es blanca, se obtendrá la "añapa", bebida fresca pero turbia, en cambio si la algarroba es negra, en la misma forma se hará la "aloja", bebida fuerte, pero de color amarilla y transparente. </p>
+                        <p>Estos dos hermanos de nombre Antenor y Francisco fueron a una "alojada", después de bailar un rato se dieron a tomar. Antenor se excedió y se machó.</p>
+                        
+                        <p>Empezó a discutir sin razón con Francisco, hasta que ciego de la embriaguez, mató a su hermano. </p>
+                        <p>Vuelto a la razón, comprendió cuan grande era su pecado y huyó al monte. El peso de la culpa le hizo bajar la cabeza y poco a poco, se fue hundiendo en la tierra y se convirtió en Coyuyo.</p>
+                        <p>Y como su pena no lo abandona, canta para disimular su tristeza. Cuando la algarroba madura, se da una tregua y salta a la superficie de la tierra.</p>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
