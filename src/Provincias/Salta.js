@@ -6,6 +6,9 @@ import Kakuy from '../images/kakuy.jpeg'
 import Ekeko from '../images/ekeko.jpg'
 import Mayup from '../images/mayup.jpg'
 import Coquena from '../images/coquena.png'
+import Coyuyo from '../images/coyuyo.jpg'
+import Src from '../music/salta.mpeg'
+import PlayerAudio from '../Components/PlayerAudio';
 
 export default class Salta extends Component {
     render() {
@@ -202,7 +205,7 @@ Existen versiones de que no sería un animal, sinó el alma de un hombre rico co
                     </Card.Header>
                     <Accordion.Collapse eventKey="3">
                         <Card.Body className="overflow-auto" style={{maxHeight:'250px'}}>
-                        <img src={Coquena} className="img-fluid mx-auto d-block" style={{height:"200px"}} alt="Responsive"/>
+                        <img src={Coyuyo} className="img-fluid mx-auto d-block" style={{height:"200px"}} alt="Responsive"/>
                         <p className="font-weight-normal ">
                         En medio del campo vivían dos hermanos que trabajaban con el fruto dulzón y pintoresco de la algarroba, cuyas vainas maduran por el mes de febrero.
                         </p>
@@ -217,7 +220,12 @@ Existen versiones de que no sería un animal, sinó el alma de un hombre rico co
                     </Accordion.Collapse>
                 </Card>
             </Accordion>
-
+                <h5>Música</h5>
+                <PlayerAudio
+                src={Src}
+                song='Cuando me acuerdo de Salta'
+                artist='Los Guitarreros'
+                />
             </div>
         )
     }

@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import SingleLegend from '../Components/SingleLegend'
 import Duende from '../images/Elduende.jpg'
 import Familiar from '../images/elFamiliar.jpg'
+import MeGusta from '../music/Me gusta Jujuy.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
 
 export default class Jujuy extends Component {
     render() {
@@ -23,6 +25,12 @@ export default class Jujuy extends Component {
                 <p>Si bien ninguna persona pudo tener contacto con esta criatura, se cree que dormía en un sótano de los ingenios y atacaba de noche.</p><br/>
                 </>}
                 
+                />
+                <h5>Música</h5>
+                <PlayerAudio 
+                src={MeGusta}
+                song='Me gusta Jujuy cuando llueve'
+                artist='Los Chalchaleros'
                 />
             </div>
         )

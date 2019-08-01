@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import SingleLegend from '../Components/SingleLegend'
 import Quirquincho from '../images/quirquincho.jpg'
 import Guitarra from '../images/laGuitarra.jpg'
+import PlayerAudio from '../Components/PlayerAudio';
+import CatamarcaS from '../music/Paisajes de Catamarca.mp3'
 
 export default class Catamarca extends Component {
     render() {
@@ -36,6 +38,12 @@ export default class Catamarca extends Component {
                Dios se apiado de el y al otro día al despertarse, encontró entre sus brazos un instrumento de cuerdas y con las formas ondulantes del de las caderas de una mujer.
                
                Desde ese momento el gaucho que esta solo, ya tiene una compañera, la fiel guitarra criolla."
+               />
+               <h5>Música</h5>
+               <PlayerAudio
+               src={CatamarcaS}
+               song="Paisajes de Catamarca"
+               artist='Los Chalchaleros'
                />
             </div>
         )

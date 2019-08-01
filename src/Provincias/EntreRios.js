@@ -5,6 +5,8 @@ import Solapa from '../images/solapa.jpg'
 import Cardenal from '../images/cardenal.jpg'
 import Ceibo from '../images/ceibo.jpg'
 import Girasol from '../images/girasol.jpg'
+import EnrteS from '../music/Raúl Solari-para-Entre Ríos.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
 
 
 export default class EntreRios extends Component {
@@ -131,6 +133,12 @@ export default class EntreRios extends Component {
                             </Accordion.Collapse>
                         </Card>
                     </Accordion>
+                    <h5>Música</h5>
+                    <PlayerAudio
+                    src={EnrteS}
+                    song='Si te vas Para Entre Rios'
+                    artist='Raúl Solari'
+                    />
             </div>
         )
     }

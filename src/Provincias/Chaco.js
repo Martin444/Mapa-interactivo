@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card'
 import Lobizon from '../images/lobizon.jpg'
 import Pilcomayo from '../images/pilcomayo.jpg'
 import Timbo from '../images/timbo.jpg'
+import PlayerAudio from '../Components/PlayerAudio';
+import ChacoS from '../music/Chaco Arisco.mp3'
 
 export default class Chaco extends Component {
     render() {
@@ -108,6 +110,12 @@ export default class Chaco extends Component {
                             </Accordion.Collapse>
                         </Card>
                     </Accordion>
+                    <h5>Música</h5>
+                    <PlayerAudio
+                    src={ChacoS}
+                    song='Chaco Arisco'
+                    artist='Los Changos y El Chaqueño'
+                    />
             </div>
         )
     }

@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card'
 import Pericana from '../images/pericana.jpg'
 import Futre from '../images/futre.jpg'
 import Tue from '../images/tue.jpg'
+import Tenombro from '../music/tenombroMendoza-Jorge Viñas.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
 
 
 export default class Mendoza extends Component {
@@ -67,6 +69,12 @@ export default class Mendoza extends Component {
                     </Accordion.Collapse>
                 </Card>
             </Accordion>
+            <h5>Música</h5>
+            <PlayerAudio
+            src={Tenombro}
+            song='Cuando te nombro Mendoza'
+            artist='Jorge Viñas'
+            />
             </div>
         )
     }

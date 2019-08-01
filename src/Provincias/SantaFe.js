@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import SingleLegend from '../Components/SingleLegend'
 import Llorona from '../images/Lallorona.jpg'
 import Hornero from '../images/Hornero.jpg'
+import Src from '../music/La-Suavecita.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
 
 export default class SantaFe extends Component {
     render() {
@@ -19,6 +21,12 @@ export default class SantaFe extends Component {
                 Cuenta la tradición que el bravo cazador triunfó en todas las pruebas, pero se demoraron en ir a sacarlo del saco de cuero. Cuando lo hicieron comprobaron que se achicaba hasta convertirse en un pequeño pájaro de plumas apagadas. Y desde su lugar de encierro voló hasta la cima de un lapacho, donde lanzó su primer y melodioso canto, renunciando de este modo a la hija del cacique.
                 
                 Pero, con el tiempo, aquella muchacha también se convirtió en ave y voló a hacerle compañía"'
+                />
+                <h5>Música</h5>
+                <PlayerAudio
+                src={Src}
+                song='La Suavecita'
+                artist='Los Palmeras ft Soledad'
                 />
             </div>
         )

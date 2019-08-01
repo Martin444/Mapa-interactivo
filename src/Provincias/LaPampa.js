@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import SingleLegend from '../Components/SingleLegend'
 import Perro from '../images/perronegro.gif'
 import Pampa from '../images/pampa.jpg'
+import LaPampe from '../music/De-sombras-largas.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
 
 export default class LaPampa extends Component {
     render() {
@@ -14,6 +16,12 @@ export default class LaPampa extends Component {
                 Y es que este famoso can azabache es el guardián del diablo y sólo obedece a su amo, quien acostumbra a llamarlo con un silbido tan penetrante que resuena en poblados enteros."
                 legend="Pampa Union"
                 leyenda="La hoy en ruinas ciudadela de Pampa Unión es quizás uno de los lugares ligados a la actividad salitrera más populares y emblemáticos. Por décadas su nombre fue sinónimo de bohemia, mujeres complacientes, comercio y parrandas eternas. Por eso dicen que una enigmática mujer llegó del más allá para darle un nuevo giro a esta historia y, tal vez, vengarse por el desprecio de un amor. Sólo hace un par de meses la vieron por última vez. Portaba un látigo y estaba vestida con el traje de cuero negro que resalta sus curvas. Con su rostro claro, indefectible, escolta un hombre encadenado y con el torso desnudo... como un verdadero esclavo. Desde hace algún tiempo es el comentario obligado de los choferes de buses y automovilistas, que en medio de la noche, pálidos de pánico, no han tenido el atrevimiento de detenerse para descubrir el misterio tras su figura."
+                />
+                <h5>Música</h5>
+                <PlayerAudio 
+                src={LaPampe}
+                song='De sombras Largas'
+                artist='Roberto Yacomuzzi'
                 />
             </div>
         )

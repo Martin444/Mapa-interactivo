@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card'
 import Yasi from '../images/Yasi.jpg'
 import Cataratas from '../images/Cataratas.jpg'
 import Yerba from '../images/yerba.jpg'
+import Mision from '../music/MISIONERITA.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
 
 export default class Misiones extends Component {
     render() {
@@ -79,6 +81,12 @@ export default class Misiones extends Component {
                     </Accordion.Collapse>
                 </Card>
             </Accordion>
+            <h5>Música</h5>
+            <PlayerAudio
+            src={Mision}
+            song='Misionerita'
+            artist='Misiones'
+            />
             </div>
         )
     }

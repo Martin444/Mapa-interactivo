@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import SingleLegend from '../Components/SingleLegend'
 import Mikilo from '../images/mikilo.jpg'
 import Chaya from '../images/Chaya.jpg'
+import Riojana from '../music/Carnaval En La Rioja.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
 
 
 export default class LaRioja extends Component {
@@ -26,6 +28,12 @@ export default class LaRioja extends Component {
                 Cuenta la leyenda que Chaya era una muy bella jovencita india, que se enamoró perdidamente del Pujllay, joven alegre, pícaro y mujeriego que ignoro los requerimientos amorosos de la hermosa indiecita. Fue así como aquella, al no ser debidamente correspondida, se interno en el monte a llorar sus penas y desventuras amorosas, desapareciendo en el para, desde entonces, solo retornar anualmente, hacia el mediado del verano, del brazo de la Diosa Luna (Quilla), en forma de rocío o fina lluvia. En tanto Pujllay sabiéndose culpable de la desaparición de la joven india, sintió remordimiento y procedió a buscarla por todo el monte infructuosamente. Tiempo después, enterado el joven del regreso de la joven a la tribu con la luna de febrero, volvió el también al lugar para continuar la búsqueda pero fue inútil. Allí, la gente que festejaba la anhelada cosecha, lo recibía con muecas de alegría; el por su parte, entre la algarabía de los circunstantes, prosiguió la búsqueda y la indagación con profunda desesperación y resultado totalmente negativo. Por ello, derrotado, termino ahogando en chicha su soledad y su pasada fama de Don Juan hasta que luego, ya muy ebrio, cae en un fogon y muere quemado, desde entonces que "Chaya" viene en Febrero año a año a apagar el fuego de "Pujllay". 
                 
                 Desde entonces y para siempre, se festeja la chaya, cada año aparece el pujllay y muere al terminar el festejo y se lo entierra hasta el año que viene. '
+                />
+                <h5>Música</h5>
+                <PlayerAudio
+                src={Riojana}
+                song='Carnaval en la Rioja'
+                artist='Chaqueño Palavecino'
                 />
             </div>
         )

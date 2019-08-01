@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card'
 import Rivadavía from '../images/rivadavia.jpg'
 import Teatro from '../images/teatro.jpg'
 import Yaguaron from '../images/yaguaron.jpg'
+import PlayerAudio from '../Components/PlayerAudio';
+import MiBuenos  from '../music/Mi-Buenos-Aires.mp3'
 
 export default class BsAs extends Component {
     render() {
@@ -65,6 +67,12 @@ export default class BsAs extends Component {
                             </Accordion.Collapse>
                         </Card>
                     </Accordion>
+                    <h5>Música</h5>
+                    <PlayerAudio
+                    src={MiBuenos}
+                    song='Mi Buenos Aires Querido'
+                    artist='Carlos Gardel'
+                    />
             </div>
         )
     }

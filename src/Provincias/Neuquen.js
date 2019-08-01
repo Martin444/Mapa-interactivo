@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import SingleLegend from '../Components/SingleLegend'
 import Taquimilan from '../images/taquimilan.jpg'
 import Limay from '../images/limay.jpg'
+import NueS from '../music/Quimey-Neuquén.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
 
 
 export default class Neuquen extends Component {
@@ -30,6 +32,12 @@ export default class Neuquen extends Component {
                 El viento superado por los celos sopló con furia arrasando con toda la vegetación y dejando tras de si un vasto desierto y llegó hasta donde los dos jóvenes corrían convertidos en ríos, atravesando grandes obstáculos para obtener la caracola.
                 
                 El viento les comunicó con gozo la desaparición de Raihúe a Limay y Neuquén, quienes al enterarse que su enamorada había muerto de dolor por su ausencia, se abrazaron estrechamente y se convirtieron en el Rio Negro, que con luto corre hasta alcanzar el mar, en la tierra de la patagonia."
+                />
+                <h5>Música</h5>
+                <PlayerAudio
+                src={NueS}
+                song='Quimey-Neuquen'
+                artist='José Larralde'
                 />
             </div>
         )

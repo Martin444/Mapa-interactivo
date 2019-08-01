@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import SingleLegend from '../Components/SingleLegend'
 import Pombero from '../images/pombero.jpg'
 import Curuzu from '../images/Curuzu.jpg'
+import Formosas from '../music/Formosa-mía.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
 
 export default class Formosa extends Component {
     render() {
@@ -30,6 +32,12 @@ export default class Formosa extends Component {
                 Los padres de la novia lloraron durante mucho tiempo la irremediable pérdida creyéndose culpables de lo ocurrido debido a la presión que le habían impuesto a la pareja, y como es tradición en estos casos en nuestra zona, hicieron erigir en el lugar del hecho una gran cruz de madera en memoria de las dos jóvenes almas.
                 A esta cruz que recuerda el triste hecho, y que estuvo en el lugar hasta hace unos años atrás plantada cerca de un casi centenario árbol, se la conoce en Formosa como Curuzú la Novia o Cruz de la Novia"
                 
+                />
+                <h5>Música</h5>
+                <PlayerAudio
+                src={Formosas}
+                song='Formosa Mía'
+                artist='Ricardo Martinez'
                 />
             </div>
         )

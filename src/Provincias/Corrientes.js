@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card'
 import Karai from '../images/Karai.png'
 import Gauchito from '../images/Gauchito.jpg'
 import Lapacho from '../images/lapacho.jpg'
+import MiCorrientes from '../music/Mi Corrientes Porá.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
 
 export default class Corrientes extends Component {
     render() {
@@ -117,6 +119,12 @@ export default class Corrientes extends Component {
                             </Accordion.Collapse>
                         </Card>
                     </Accordion>
+                    <h5>Música</h5>
+                    <PlayerAudio
+                    src={MiCorrientes}
+                    song='Mi Corrientes Porá'
+                    artist='Mi Corrientes Porá'
+                    />
             </div>
         )
     }

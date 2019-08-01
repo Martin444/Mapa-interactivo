@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import SingleLegend from '../Components/SingleLegend';
 import Lakooma from '../images/lakooma.jpg'
 import Barco from '../images/fantasma.jpg'
+import Src from '../music/TierraDelFuego.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
 
 export default class TrFuego extends Component {
     render() {
@@ -46,6 +48,12 @@ export default class TrFuego extends Component {
                 
                 
                 “Recuerdo que el barco fue retirado de la bahía después de que yo lo había incluido en la historia. Lo recuerdo porque esperaba que lo dejaran hasta que saliera el libro. En realidad nunca escuché ningún mito sobre el Neptunia, pero me lo imaginé igual”, acota Vanella."
+                />
+                <h5>Música</h5>
+                <PlayerAudio
+                src={Src}
+                song='Tierra de Fuego'
+                artist='M.Beatriz Muñoz'
                 />
             </div>
         )

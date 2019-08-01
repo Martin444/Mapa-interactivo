@@ -3,6 +3,7 @@ import Mapa from '../Components/Mapa'
 import ProvConten from '../Components/ProvConten'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
+import PlayerAudio from '../Components/PlayerAudio';
 
 export default class Home extends Component {
     state ={
@@ -27,7 +28,7 @@ export default class Home extends Component {
                 <div className="container">
                     <div className="row justify-content-md-center">
                     <div className="col">
-                        <ProvConten/> 
+                        <ProvConten/>  
                     </div>
                     <div className=" col col-lg-5" >
                     <Accordion className="shadow" >
@@ -47,7 +48,6 @@ export default class Home extends Component {
                     </div>
                 </div>
                 </div>
-                
             </div>
                 
             </>

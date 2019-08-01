@@ -4,6 +4,9 @@ import Card from 'react-bootstrap/Card'
 import Telesita from '../images/la telesita.jpg'
 import Sachayoj from '../images/sachayoj.jpg'
 import Pitufo from '../images/pitufo.jpg'
+import Src from '../music/Chacarera para mi vuelta.mp3'
+import PlayerAudio from '../Components/PlayerAudio';
+
 
 export default class SntEstero extends Component {
     render() {
@@ -67,6 +70,12 @@ export default class SntEstero extends Component {
                     </Accordion.Collapse>
                 </Card>
             </Accordion>
+            <h5>Música</h5>
+            <PlayerAudio
+            src={Src}
+            song='Chacarera para mi vuelta'
+            artist='Los Manseros Santiagueños'
+            />
             </div>
         )
     }

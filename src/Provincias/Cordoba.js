@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import SingleLegend from '../Components/SingleLegend'
 import Jinete from '../images/jinete.jpg'
 import Pelada from '../images/pelada.jpg'
+import PlayerAudio from '../Components/PlayerAudio';
+import CordobaS from '../music/Córdoba en otoño.mp3'
 
 export default class Cordoba extends Component {
     render() {
@@ -33,6 +35,12 @@ export default class Cordoba extends Component {
                 Tal vez aprovechando la fama de “la Pelada de la Cañada”, sin dudas, habrían aparecido algunos imitadores. Pero lo cierto es, que entre los asaltados por este fantasma, habría un comerciante “turco” que decía se le había aparecido por la fabrica de porcelana. Lo interesante del caso, era que del susto recibido, no podía bajarse del caballo que montaba, y pretendía por ese inconveniente, hacer la denuncia desde su cabalgadura. Cuentan que el comisario no encontraba la manera de hacer descender del animal al denunciante y al preguntarle el “por qué de su actitud”, contestole el turco de marras:
                 
                 Pasar señur comesario, que la Belada de la Cañada, ha asustado al caballo mío y ahora no dejar bajar al pobre turco…'
+                />
+                <h5>Música</h5>
+                <PlayerAudio
+                src={CordobaS}
+                song='Cordoba en Otoño'
+                artist='Los Nocheros'
                 />
             </div>
         )
