@@ -13,7 +13,7 @@ export default class Mapa extends Component {
     render() {
         return (
             <div>
-               
+
                 <div className="contenedor-mapa">
                     <Link to="/Jujuy">
                         <a id="div-btn1" onClick={this.handleClick}>
